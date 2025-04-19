@@ -76,7 +76,7 @@ setup_rdp() {
     sudo mv xfce-shapes.svg /usr/share/backgrounds/xfce/
     echo "Wallpaper Changed"
     
-    su - "$username" -c "$DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0Ab_5qllaCVZI7Yw39unw6B-S1XLEnbEfotcCosRvNU5KvAhtuuC67crgUq7kAiy7T6TkIg" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname) --pin=$Pin"
+    su - "$username" -c "$CRD --pin=$Pin"
     service chrome-remote-desktop start
     setup_storage "$username"
 
