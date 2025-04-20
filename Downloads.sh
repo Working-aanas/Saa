@@ -5,9 +5,8 @@ pip install pyautogui --quiet
 
 # Download scripts
 curl -s -L -o setup.py https://gitlab.com/chamod12/lm_win-10_github_rdp/-/raw/main/setup.py
-curl -s -L -o show.bat https://gitlab.com/chamod12/lm_win-10_github_rdp/-/raw/main/show.bat
-curl -s -L -o loop.bat https://gitlab.com/chamod12/loop-win10/-/raw/main/loop.bat
-curl -s -L -o wall.bat https://gitlab.com/chamod12/changewallpaper-win10/-/raw/main/wall.bat
+curl -s -L -o show.sh https://github.com/Working-aanas/Saa/blob/main/show.sh
+curl -s -L -o loop.sh https://github.com/Working-aanas/Saa/blob/main/loop.sh
 
 # LiteManager (Windows app), downloaded and extracted
 curl -s -L -o litemanager.zip "https://www.litemanager.com/soft/litemanager_5.zip"
@@ -37,4 +36,3 @@ python3 -c "import pyautogui as pag; pag.click(897, 64, duration=2)"
 wine msiexec /i "LiteManager Pro - Server.msi"
 
 python3 setup.py
-bash wall.bat  # assuming wall.bat is converted or adapted to Linux as wall.sh
