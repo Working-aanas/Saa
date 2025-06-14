@@ -1,12 +1,1 @@
-humor
-town
-minimum
-visit
-real
-truly
-canvas
-wild
-want
-try
-bounce
-right
+humor town minimum visit real truly canvas wild want try bounce right
